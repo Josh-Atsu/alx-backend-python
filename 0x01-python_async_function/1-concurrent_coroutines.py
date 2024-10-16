@@ -6,7 +6,7 @@ execute multiple coroutines
 """
 
 
-async def wait_n(n: int, max_delay: int) -> list:
+async def wait_n(n: int, max_delay: int) -> float:
     """Spawn wait_random n times
     """
     delay = []
