@@ -6,4 +6,5 @@
 def floor(n: float) -> int:
     """Basic annotations - floor
     """
-    return n
+    num: int = n
+    return num
