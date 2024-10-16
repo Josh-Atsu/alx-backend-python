@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import asyncio
+from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 """
 execute multiple coroutines
 """
 
 
-async def wait_n(n: int, max_delay: int) -> float:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """Spawn wait_random n times
     """
     delay = []
